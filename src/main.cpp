@@ -6,8 +6,11 @@
 #include <sstream>
 #include "Employee.h"
 #include <vector>
+#include <algorithm>
 #include "tinyxml2.h"
+#include <filesystem>
 
+namespace fs = std::filesystem;
 using namespace tinyxml2; //Namespace to simplify the sintax 
 
 
@@ -139,15 +142,70 @@ std::vector <Employee> jsonParserEmployees (const std::string& fileLocation){
     }
     
     return employees;
-        
+}
+//Compare function of Id's used by the built in sorted function
+bool idComparison (const Employee& employeeA, const Employee& employeeB) {
+    return employeeA.getId() < employeeB.getId();
 }
 
+//This functions receives a list of employees and return the average salary
+double averageSalary (std::vector<Employee>& employees){
+    double average=0;
+    for (Employee employeeValue : employees){
+        average+=employeeValue.getSalary();        
+    }
+    average/=employees.size();
+    return average;
+}
 
+//This function receives a list of employees and returns the highest salary
+double highestSalary (std::vector<Employee>& employees){
+    double maxSalary = std::numeric_limits<double>::min();
+    for (int i = 0; i<employees.size();i++){
+        if (employees[i].getSalary()>maxSalary){
+            maxSalary=employees[i].getSalary();
+        }
+    }
+    return maxSalary;
+}
+//Receives a list with employees and sorts it directly by id
+void sortEmployeesById(std::vector<Employee>& unsortedEmployeeList){    
+    std::sort(unsortedEmployeeList.begin(),unsortedEmployeeList.end(),idComparison);    
+}
+
+void outPutResults (std::vector <Employee> employeeList){
+    fs::path projectDir = fs::path(__FILE__).parent_path();
+        fs::path outputFileLocation = projectDir / ".." / "outputFiles" / "outputFile.txt";
+
+        std::ofstream outFile(outputFileLocation);
+
+        if (!outFile) {
+            std::cerr << "Failed to open output file!" << std::endl;
+            exit(EXIT_FAILURE); // Stop the program            
+        }
+
+        outFile << "Average Salary: " << averageSalary(employeeList) << "\n";
+        outFile << "Highest Salary: " << highestSalary(employeeList) << "\n";
+
+        sortEmployeesById(employeeList);
+        outFile << "Sorted Employees by ID:\n";
+        for (const Employee& employeeValue : employeeList) {
+            
+            outFile << "-------------------------------------\n";
+            outFile << "ID: " << employeeValue.getId() << "\n";
+            outFile << "Name: " << employeeValue.getName() << "\n";
+            outFile << "Department: " << employeeValue.getDepartment() << "\n";
+            outFile << "Salary: " << employeeValue.getSalary() << "\n";
+            
+        }
+
+        outFile.close();
+}
 
 int main(){
     
     std::string fileLocation;
-    std::cout << "Please enter your employees file location and name.\nThis program works with both XML and JSON files dude.\n";
+    std::cout << "Please enter your employees file location and name.\nThis program works with both XML and JSON files.\n";
     
     std::cin >> fileLocation; 
     
@@ -155,24 +213,20 @@ int main(){
     
 
     if (fileLocation.find(".xml")!= std::string::npos){
-        
-        employeeList = xmlParseEmployees(fileLocation);
-        for (Employee value : employeeList){
-            std::cout << value.getName() << "\n";
-        }
+
+        employeeList=xmlParseEmployees(fileLocation);        
     }
 
     else if(fileLocation.find(".json")!= std::string::npos){          
 
-        employeeList = jsonParserEmployees(fileLocation);
-        for (const Employee& value : employeeList){            
-            std::cout << "this is " << value.getName() << "\n";
-            
-        }
+        employeeList = jsonParserEmployees(fileLocation);        
+
     }
     
     else {
         std::cout <<"Unsuported file type";
+        exit(EXIT_FAILURE); // Stop the program   
     }
+    outPutResults(employeeList);
     return 0;
 }

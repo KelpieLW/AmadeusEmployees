@@ -1,16 +1,40 @@
 {
   "employees": [
     {
-      "name": "",
-      "id": 101,
+      "name": "John Marston",
+      "id": 103,
       "department": "HR",
       "salary": 12000
     },
     {
       "name": "Tacitus Killgore",
+      "id": 101,
+      "department": "Engineering",
+      "salary": 8000
+    },
+    {
+      "name": "Arthur Morgan",
       "id": 102,
       "department": "Engineering",
-      "salary": ""
+      "salary": 8000
+    },
+    {
+      "name": "Micah Bell",
+      "id": 104,
+      "department": "HR",
+      "salary": 15000
+    },
+    {
+      "name": "Jim Miller",
+      "id": 105,
+      "department": "Engineering",
+      "salary": 90000
+    },
+    {
+      "name": "Javier Escuella",
+      "id": 106,
+      "department": "HR",
+      "salary": 90000
     }
   ]
 }

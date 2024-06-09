@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee
+CMAKE_SOURCE_DIR = C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee
+CMAKE_BINARY_DIR = C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AmadeusEmployee.dir/depend.make
@@ -70,48 +70,48 @@ include CMakeFiles/AmadeusEmployee.dir/flags.make
 
 CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj: CMakeFiles/AmadeusEmployee.dir/flags.make
 CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj: CMakeFiles/AmadeusEmployee.dir/includes_CXX.rsp
-CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/src/main.cpp
+CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/src/main.cpp
 CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj: CMakeFiles/AmadeusEmployee.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\main.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\main.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/main.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\main.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\main.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\main.cpp
 
 CMakeFiles/AmadeusEmployee.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AmadeusEmployee.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\main.cpp > CMakeFiles\AmadeusEmployee.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\main.cpp > CMakeFiles\AmadeusEmployee.dir\src\main.cpp.i
 
 CMakeFiles/AmadeusEmployee.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AmadeusEmployee.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\main.cpp -o CMakeFiles\AmadeusEmployee.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\main.cpp -o CMakeFiles\AmadeusEmployee.dir\src\main.cpp.s
 
 CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj: CMakeFiles/AmadeusEmployee.dir/flags.make
 CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj: CMakeFiles/AmadeusEmployee.dir/includes_CXX.rsp
-CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/src/Employee.cpp
+CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/src/Employee.cpp
 CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj: CMakeFiles/AmadeusEmployee.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\Employee.cpp
 
 CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\Employee.cpp > CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\Employee.cpp > CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.i
 
 CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AmadeusEmployee.dir/src/Employee.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\Employee.cpp -o CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\Employee.cpp -o CMakeFiles\AmadeusEmployee.dir\src\Employee.cpp.s
 
 CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj: CMakeFiles/AmadeusEmployee.dir/flags.make
 CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj: CMakeFiles/AmadeusEmployee.dir/includes_CXX.rsp
-CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/src/tinyxml2.cpp
+CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/src/tinyxml2.cpp
 CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj: CMakeFiles/AmadeusEmployee.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.obj -MF CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.obj.d -o CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.obj -c C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\tinyxml2.cpp
 
 CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\tinyxml2.cpp > CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\tinyxml2.cpp > CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.i
 
 CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AmadeusEmployee.dir/src/tinyxml2.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\src\tinyxml2.cpp -o CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\src\tinyxml2.cpp -o CMakeFiles\AmadeusEmployee.dir\src\tinyxml2.cpp.s
 
 # Object files for target AmadeusEmployee
 AmadeusEmployee_OBJECTS = \
@@ -129,7 +129,7 @@ AmadeusEmployee.exe: CMakeFiles/AmadeusEmployee.dir/build.make
 AmadeusEmployee.exe: CMakeFiles/AmadeusEmployee.dir/linkLibs.rsp
 AmadeusEmployee.exe: CMakeFiles/AmadeusEmployee.dir/objects1.rsp
 AmadeusEmployee.exe: CMakeFiles/AmadeusEmployee.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AmadeusEmployee.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AmadeusEmployee.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AmadeusEmployee.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/AmadeusEmployee.dir/clean:
 .PHONY : CMakeFiles/AmadeusEmployee.dir/clean
 
 CMakeFiles/AmadeusEmployee.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployee\out\build\AmadeusEmployee\CMakeFiles\AmadeusEmployee.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee C:\Users\LEVIATHAN\Downloads\Amadeus\AmadeusEmployees\out\build\AmadeusEmployee\CMakeFiles\AmadeusEmployee.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/AmadeusEmployee.dir/depend
 

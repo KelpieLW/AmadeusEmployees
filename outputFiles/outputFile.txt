@@ -1,0 +1,33 @@
+Average Salary: 37166.7
+Highest Salary: 90000
+Sorted Employees by ID:
+-------------------------------------
+ID: 101
+Name: Tacitus Killgore
+Department: Engineering
+Salary: 8000
+-------------------------------------
+ID: 102
+Name: Arthur Morgan
+Department: Engineering
+Salary: 8000
+-------------------------------------
+ID: 103
+Name: John Marston
+Department: HR
+Salary: 12000
+-------------------------------------
+ID: 104
+Name: Micah Bell
+Department: HR
+Salary: 15000
+-------------------------------------
+ID: 105
+Name: Jim Miller
+Department: Engineering
+Salary: 90000
+-------------------------------------
+ID: 106
+Name: Javier Escuella
+Department: HR
+Salary: 90000

@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++11"
+					"fragment" : "-g -std=gnu++17"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/include"
+					"path" : "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/include"
 				}
 			],
 			"language" : "CXX",
@@ -62,7 +62,7 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[

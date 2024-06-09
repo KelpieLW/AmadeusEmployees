@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee
+# Install script for directory: C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/out/install/AmadeusEmployee")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/out/install/AmadeusEmployee")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployee/out/build/AmadeusEmployee/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/out/build/AmadeusEmployee/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
