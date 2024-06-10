@@ -17,7 +17,7 @@ The data is taken by the tool and manipulated resulting in an output file that w
 
 ## Employees
 
-An employee is defined by the following atributes:
+An employee is defined by the following attributes:
 
 - Id - _Mandatory Field_
 - Name
@@ -38,7 +38,7 @@ A Bash Script was made to use the building routines of CMaker and generate the e
 
 > Bash BuildAndRun.sh
 
-After a succesful building process the executable will be available inside the **build** folder located at the root of the project. Under the name of AmadeusEmployee.exe. Executing it will bring the command prompt. A message will ask you for the exact location of the input file, remember that a valid file must be in XML or JSON format, every element on the data structure must contain the mandatory fields mentioned above. Here is an example of a valid path:
+After a successful building process the executable will be available inside the **build** folder located at the root of the project. Under the name of AmadeusEmployee.exe. Executing it will bring the command prompt. A message will ask you for the exact location of the input file, remember that a valid file must be in XML or JSON format, every element on the data structure must contain the mandatory fields mentioned above. Here is an example of a valid path:
 
 > C:\Users\user\Downloads\Amadeus\AmadeusEmployees\inputFiles\employee.json
 
