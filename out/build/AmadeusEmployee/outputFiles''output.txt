@@ -1,3 +1,0 @@
-Average Salary: nan
-Highest Salary: 2.22507e-308
-Sorted Employees by ID:

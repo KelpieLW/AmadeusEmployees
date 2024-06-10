@@ -172,7 +172,7 @@ double highestSalary (std::vector<Employee>& employees){
 void sortEmployeesById(std::vector<Employee>& unsortedEmployeeList){    
     std::sort(unsortedEmployeeList.begin(),unsortedEmployeeList.end(),idComparison);    
 }
-
+//Responsible for creating a new outputfile in the outputFiles folder. Contains the logic to format and write the output files with.
 void outPutResults (std::vector <Employee> employeeList){
     fs::path projectDir = fs::path(__FILE__).parent_path();
         fs::path outputFileLocation = projectDir / ".." / "outputFiles" / "outputFile.txt";

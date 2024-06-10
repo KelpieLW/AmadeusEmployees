@@ -1,0 +1,3 @@
+C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/build/CMakeFiles/AmadeusEmployee.dir
+C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/build/CMakeFiles/edit_cache.dir
+C:/Users/LEVIATHAN/Downloads/Amadeus/AmadeusEmployees/build/CMakeFiles/rebuild_cache.dir
